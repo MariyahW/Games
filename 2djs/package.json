@@ -6,7 +6,11 @@
   "scripts": {
     "start": "parcel src/index.html -p 8080",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "com": "git"
+    "add": "git add .",
+    "commit": "git commit -m \"script commit\"",
+    "push": "git push -u origin main",
+    "sail": "npm run add & npm run commit & npm run push"
+
   },
   "keywords": [],
   "author": "",
